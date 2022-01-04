@@ -1,7 +1,8 @@
 class Player
-  attr_reader :score
+  attr_accessor :score
 
   def initialize
     @score = 3
   end
+
 end
